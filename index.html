@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Demo Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Interactive Demo</h1>
+  </header>
+
+  <main>
+    <!-- Section 1: Interactive Button -->
+    <section id="color-section">
+      <h2>Change Background Color</h2>
+      <button id="colorBtn">Click to Change Color</button>
+    </section>
+
+    <!-- Section 2: Counter -->
+    <section id="counter-section">
+      <h2>Simple Counter</h2>
+      <button id="decreaseBtn">-</button>
+      <span id="counter">0</span>
+      <button id="increaseBtn">+</button>
+    </section>
+
+      <!-- Section 3: Form -->
+    <section id="form-section">
+      <h2>Sign Up Form</h2>
+      <form id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <button type="submit">Register</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
