@@ -52,7 +52,7 @@ document.getElementById("signupForm").addEventListener("submit", function(e) {
     return;
   }
 
-  if (password.length < 6) {
+  if (password.length < 8) {
     message.textContent = "Password must be at least 6 characters long.";
     message.style.color = "red";
     return;
